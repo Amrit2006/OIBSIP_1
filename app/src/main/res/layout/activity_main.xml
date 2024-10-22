@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:TextViewandroid="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+
+        android:padding="16dp"
+        />
+
+    <TextView
+        android:id="@+id/display"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="38sp"
+    android:gravity="right"
+    android:padding="16dp"
+        android:layout_marginTop="103dp"
+        android:singleLine="true"/>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/display"
+        android:layout_marginTop="40dp"
+        android:columnCount="4"
+        android:rowCount="5">
+
+        <!-- Buttons for numbers, operators, and functions -->
+        <Button
+            android:id="@+id/button7"
+            android:includeFontPadding="true"
+            android:padding="30dp"
+            android:text="7"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:padding="30dp"
+            android:text="8"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:padding="30dp"
+            android:text="9"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonDivide"
+            android:padding="30dp"
+            android:text="/"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:padding="30dp"
+            android:text="4"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:padding="30dp"
+            android:text="5"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:padding="30dp"
+            android:text="6"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonMultiply"
+            android:padding="30dp"
+            android:text="*"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:padding="30dp"
+            android:text="1"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:padding="30dp"
+            android:text="2"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:padding="30dp"
+            android:text="3"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonSubtract"
+            android:padding="30dp"
+            android:text="-"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button0"
+            android:padding="30dp"
+            android:text="0"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonDecimal"
+            android:padding="30dp"
+            android:text="."
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonEquals"
+            android:padding="30dp"
+            android:text="="
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:padding="30dp"
+            android:text="+"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:padding="30dp"
+            android:text="C"
+            android:textSize="20sp" />
+
+    </GridLayout>
+
+</RelativeLayout>
